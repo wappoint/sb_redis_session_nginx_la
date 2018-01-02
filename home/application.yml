@@ -1,0 +1,18 @@
+#端口
+server:
+  port: 8088
+spring:
+  redis:
+    #主机
+    host: 192.168.0.70
+    #端口
+    port: 6379
+    database: 0
+    password: 123456
+    pool:
+      max-active: 8
+      max-wait: -1
+      max-idle: 8
+      min-idle: 0
+    timeout: 0
+
